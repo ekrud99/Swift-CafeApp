@@ -11,9 +11,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        //navigation bar invisible
+        self.navigationController?.isNavigationBarHidden = true
+    }
 
 }
 
