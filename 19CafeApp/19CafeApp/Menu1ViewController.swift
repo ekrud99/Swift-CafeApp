@@ -61,11 +61,13 @@ class Menu1ViewController: UIViewController , UITableViewDataSource, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         self.tableView.dataSource = self
         self.tableView.delegate = self
         //navigation bar visibel
         self.navigationController?.isNavigationBarHidden = false
     }
+   
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return names.count
