@@ -61,7 +61,7 @@ class Menu1ViewController: UIViewController , UITableViewDataSource, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        self.title = "Coffees"
         self.tableView.dataSource = self
         self.tableView.delegate = self
         //navigation bar visibel

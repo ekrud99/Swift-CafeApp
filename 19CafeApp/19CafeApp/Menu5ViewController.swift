@@ -14,6 +14,7 @@ class Menu5ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title = "Find Shop"
         self.navigationController?.isNavigationBarHidden = false
         
         loadWebPage("http://paikdabang.com/store/")

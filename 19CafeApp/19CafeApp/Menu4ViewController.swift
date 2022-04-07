@@ -53,6 +53,7 @@ class Menu4ViewController: UIViewController , UITableViewDataSource, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.title = "Specials"
         self.tableView.dataSource = self
         self.tableView.delegate = self
         //navigation bar visibel

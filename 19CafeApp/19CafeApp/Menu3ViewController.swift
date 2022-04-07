@@ -56,6 +56,7 @@ class Menu3ViewController: UIViewController , UITableViewDataSource, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.title = "Dessert"
         self.tableView.dataSource = self
         self.tableView.delegate = self
         //navigation bar visibel
