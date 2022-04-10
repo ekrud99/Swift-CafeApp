@@ -49,7 +49,7 @@ class Menu4ViewController: UIViewController , UITableViewDataSource, UITableView
     
 
     @IBOutlet weak var tableView: UITableView!
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -58,6 +58,7 @@ class Menu4ViewController: UIViewController , UITableViewDataSource, UITableView
         self.tableView.delegate = self
         //navigation bar visibel
         self.navigationController?.isNavigationBarHidden = false
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -69,8 +70,10 @@ class Menu4ViewController: UIViewController , UITableViewDataSource, UITableView
         let cell = tableView.dequeueReusableCell(withIdentifier: "MyTableViewCell", for: indexPath) as! MyTableViewCell
         cell.labelName.text = names[indexPath.row]
         cell.labelPrice.text = prices[indexPath.row] as String
+        cell.labelPrice.adjustsFontSizeToFitWidth = true
         cell.imageViewItem.sd_setImage(with: URL(string: images[indexPath.row]))
         cell.selectionStyle = .none
+        
         
         return cell
         
@@ -90,5 +93,6 @@ class Menu4ViewController: UIViewController , UITableViewDataSource, UITableView
             cell.contentView.backgroundColor = UIColor.white
         })
     }
+   
 
 }
