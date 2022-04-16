@@ -116,7 +116,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Coupon"/>
                                 <connections>
-                                    <segue destination="NEv-p1-nS6" kind="show" id="JoO-1j-PSZ"/>
+                                    <segue destination="gYP-qh-X6T" kind="show" id="h4o-yj-PdS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -144,6 +144,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="944.92753623188412" y="97.767857142857139"/>
+        </scene>
+        <!--Coupon View Controller-->
+        <scene sceneID="zf2-D0-dQW">
+            <objects>
+                <viewController id="gYP-qh-X6T" customClass="CouponViewController" customModule="_9CafeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xhc-d5-cdf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="kMH-lg-czv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Heb-89-wXk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FAN-3U-4vY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="937" y="-561"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="0Qi-Cb-lAW">

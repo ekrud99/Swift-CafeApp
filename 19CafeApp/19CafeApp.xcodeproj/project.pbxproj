@@ -20,6 +20,7 @@
 		5D0217C127FDC5DD005EB7B2 /* Menu4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0217C027FDC5DD005EB7B2 /* Menu4ViewController.swift */; };
 		5D0217C327FDC5E8005EB7B2 /* Menu5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0217C227FDC5E8005EB7B2 /* Menu5ViewController.swift */; };
 		5D0217C727FDD671005EB7B2 /* NaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0217C627FDD671005EB7B2 /* NaViewController.swift */; };
+		5D5A2A15280AFCF600B0BD8F /* CouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A2A14280AFCF600B0BD8F /* CouponViewController.swift */; };
 		F764865C5A7FFA6A9CB83050 /* Pods_19CafeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1C951E2916F05620A87830 /* Pods_19CafeApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		5D0217C027FDC5DD005EB7B2 /* Menu4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu4ViewController.swift; sourceTree = "<group>"; };
 		5D0217C227FDC5E8005EB7B2 /* Menu5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu5ViewController.swift; sourceTree = "<group>"; };
 		5D0217C627FDD671005EB7B2 /* NaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaViewController.swift; sourceTree = "<group>"; };
+		5D5A2A14280AFCF600B0BD8F /* CouponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponViewController.swift; sourceTree = "<group>"; };
 		68134E2395D458A327DC0AF1 /* Pods-19CafeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-19CafeApp.debug.xcconfig"; path = "Target Support Files/Pods-19CafeApp/Pods-19CafeApp.debug.xcconfig"; sourceTree = "<group>"; };
 		8623EF8984C6B54040621935 /* Pods-19CafeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-19CafeApp.release.xcconfig"; path = "Target Support Files/Pods-19CafeApp/Pods-19CafeApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +83,7 @@
 				5D0217A627FB37AC005EB7B2 /* SceneDelegate.swift */,
 				5D0217A827FB37AC005EB7B2 /* ViewController.swift */,
 				5D0217AA27FB37AC005EB7B2 /* Main.storyboard */,
+				5D5A2A14280AFCF600B0BD8F /* CouponViewController.swift */,
 				5D0217C627FDD671005EB7B2 /* NaViewController.swift */,
 				5D0217B827FB4660005EB7B2 /* Menu1ViewController.swift */,
 				5D0217BC27FDC5C9005EB7B2 /* Menu2ViewController.swift */,
@@ -233,6 +236,7 @@
 				5D0217BF27FDC5D5005EB7B2 /* Menu3ViewController.swift in Sources */,
 				5D0217C327FDC5E8005EB7B2 /* Menu5ViewController.swift in Sources */,
 				5D0217C127FDC5DD005EB7B2 /* Menu4ViewController.swift in Sources */,
+				5D5A2A15280AFCF600B0BD8F /* CouponViewController.swift in Sources */,
 				5D0217A527FB37AC005EB7B2 /* AppDelegate.swift in Sources */,
 				5D0217C727FDD671005EB7B2 /* NaViewController.swift in Sources */,
 				5D0217BB27FB4E22005EB7B2 /* MyTableViewCell.swift in Sources */,
