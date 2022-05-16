@@ -178,6 +178,12 @@
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="pV4-8K-YLe">
                                             <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3IZ-ND-Q2i">
+                                                    <rect key="frame" x="10" y="0.0" width="100" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
                                         </collectionViewCellContentView>
                                     </collectionViewCell>
                                 </cells>
@@ -207,6 +213,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ioD-p4-kcF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1664" y="-540"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="AUl-FU-Cg2">
+            <objects>
+                <viewController id="AnD-tI-fsa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Avx-U2-Der">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="nCb-xh-k3u"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yXL-YO-ce5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qu1-2p-uL3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2388" y="-523"/>
         </scene>
         <!--Menu1 View Controller-->
         <scene sceneID="oXm-Bd-IEl">
@@ -280,7 +302,13 @@
                             <constraint firstItem="1q1-Rx-5TH" firstAttribute="bottom" secondItem="bV1-vg-hTg" secondAttribute="bottom" id="nzp-xw-MWn"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Umf-Gg-Rvp"/>
+                    <navigationItem key="navigationItem" id="Umf-Gg-Rvp">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="m0C-xx-fqo">
+                            <connections>
+                                <segue destination="AnD-tI-fsa" kind="show" id="oKQ-Ah-xfi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="1q1-Rx-5TH" id="euZ-Im-DpG"/>
                     </connections>

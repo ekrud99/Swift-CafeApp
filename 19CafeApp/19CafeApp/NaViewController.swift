@@ -13,6 +13,8 @@ class NaViewController: UINavigationController {
         super.viewDidLoad()
 
         self.navigationController?.navigationBar.barTintColor = UIColor.blue
+        
+        
 
         
         // Do any additional setup after loading the view.
